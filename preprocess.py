@@ -58,8 +58,8 @@ def get_data(data_path, times_path, seed=123):
 
     return train_cells, train_labels, test_cells, test_labels
 
-# tc, tl, tc2, tl2 = get_data('data/hsmm_data.csv', 'data/hsmm_times.csv')
-# print(tc.shape)
-# print(tl.shape)
-# print(tc2.shape)
-# print(tl2.shape)
+tc, tl, tc2, tl2 = get_data('data/hsmm_data.csv', 'data/hsmm_times.csv')
+print(tc.shape)
+print(tl.shape)
+print(tc2.shape)
+print(tl2.shape)
